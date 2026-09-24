@@ -1,8 +1,8 @@
 {
   "company": "CoreWeave",
   "report_date": "2026-09-24",
-  "started_at": "2026-09-24T08:18:35.592588+00:00",
-  "completed_at": "2026-09-24T08:18:36.146314+00:00",
+  "started_at": "2026-09-24T08:23:25.708003+00:00",
+  "completed_at": "2026-09-24T08:23:26.218463+00:00",
   "status": "configuration-required",
   "notice": "数据存在缺口，请先查看采集状态。",
   "plan": {
