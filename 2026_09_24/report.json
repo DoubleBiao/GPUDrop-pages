@@ -1,0 +1,46 @@
+{
+  "company": "CoreWeave",
+  "report_date": "2026-09-24",
+  "started_at": "2026-09-24T08:18:35.592588+00:00",
+  "completed_at": "2026-09-24T08:18:36.146314+00:00",
+  "status": "configuration-required",
+  "notice": "数据存在缺口，请先查看采集状态。",
+  "plan": {
+    "as_of": "2026-09-24",
+    "unit": "USD millions",
+    "readiness": "insufficient",
+    "opening_cash": null,
+    "opening_evidence_ids": [],
+    "rows": [],
+    "assumptions": [],
+    "facts": [],
+    "gaps": [
+      "尚未完成当前可用现金桥接、债务到期和不可取消采购付款的核实。",
+      "尚未配置 OPENAI_API_KEY 或 OPENAI_MODEL；未执行研究、预测与点评。"
+    ]
+  },
+  "model": {
+    "status": "insufficient",
+    "horizons": [],
+    "path": []
+  },
+  "analysis": null,
+  "sources": [
+    {
+      "id": "ir-news",
+      "url": "https://investors.coreweave.com/news/default.aspx"
+    },
+    {
+      "id": "ir-results",
+      "url": "https://investors.coreweave.com/financials/quarterly-results/default.aspx"
+    }
+  ],
+  "collection_errors": [
+    {
+      "source": "SEC",
+      "error": "SEC_USER_AGENT missing; provide app name and contact email"
+    }
+  ],
+  "input_hash": "a4b412dcd3df8d75",
+  "prompt_hash": "cf2bd204b034b018"
+}
