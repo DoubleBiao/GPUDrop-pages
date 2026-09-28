@@ -1,0 +1,958 @@
+{
+  "company": "CoreWeave",
+  "report_date": "2026-09-28",
+  "started_at": "2026-09-28T20:03:43.102845+00:00",
+  "completed_at": "2026-09-28T20:07:38.846899+00:00",
+  "status": "analyzed",
+  "notice": "已建立基于公开披露的现金情景估计；余额不是实时银行数据，区间不是发生概率。",
+  "plan": {
+    "readiness": "ready",
+    "as_of": "2026-09-28",
+    "unit": "USD millions",
+    "cash_bridge": {
+      "reported_as_of": "2026-06-30",
+      "reported_cash": [
+        5524,
+        5524
+      ],
+      "evidence_ids": [
+        "sec-000176962826000366",
+        "sec-companyfacts",
+        "baseline-2026-q2-results"
+      ],
+      "flows": {
+        "operating_net": [
+          600,
+          800
+        ],
+        "capex": [
+          5000,
+          7000
+        ],
+        "debt_principal": [
+          0,
+          0
+        ],
+        "finance_lease_principal": [
+          0,
+          0
+        ],
+        "other_net": [
+          -566.2,
+          -566.2
+        ],
+        "committed_funding": [
+          6537,
+          6537
+        ],
+        "asset_sales_net": [
+          0,
+          0
+        ],
+        "assumption": "累计桥接口径：opening_cash = 报表日非受限现金 + 经营净现金流 - 资本支出 - 债务本金偿还 - 融资租赁本金 + 其他净项 + 已完成/已提款的已承诺融资 + 资产出售净额。上述累计 flows 覆盖 2026-06-30 到 2026-09-28 的已知/可核证变动。已完成融资（可转债净额 $4,137.0M；附证）、已提款的信贷（DDTL5.5 与 Revolver 各约 $1,200M）计入 committed_funding；已知一次性对冲（capped call）支出计入 other_net（-$566.2M）。经营净现金以最近季度（2026Q2 三个月 net cash provided by operating activities = $679M）为基准并给出宽幅区间以反映季节性与季度后续结算。资本开支以近期季度运行率（Q1+Q2 年化显著扩张）为基础，Q3 仍处高支出期，给出[5,000,7,000]区间。未经披露的发行费用、未来提款与分期偿付列入 gaps 并在 assumptions 中说明。",
+        "evidence_ids": [
+          "sec-000176962826000366",
+          "sec-000176962826000432",
+          "sec-000176962826000357",
+          "baseline-2026-q2-results",
+          "baseline-2026-09-convertible",
+          "ir-release-276d19d8f348"
+        ]
+      }
+    },
+    "opening_cash": [
+      5094.8,
+      7294.8
+    ],
+    "opening_evidence_ids": [
+      "sec-000176962826000366",
+      "sec-000176962826000432",
+      "sec-000176962826000357",
+      "baseline-2026-q2-results"
+    ],
+    "rows": [
+      {
+        "period_start": "2026-09-28",
+        "operating_net": [
+          200,
+          300
+        ],
+        "capex": [
+          1800,
+          2600
+        ],
+        "debt_principal": [
+          0,
+          0
+        ],
+        "finance_lease_principal": [
+          0,
+          0
+        ],
+        "other_net": [
+          0,
+          0
+        ],
+        "committed_funding": [
+          0,
+          0
+        ],
+        "asset_sales_net": [
+          0,
+          0
+        ],
+        "assumption": "以最近单月运行率（Q2月均≈226M经营现金）为基准；本月计入Q3已完成融资的净效果已在桥接中反映，预测不再重复计入。",
+        "evidence_ids": [
+          "sec-000176962826000366",
+          "baseline-2026-q2-results"
+        ]
+      },
+      {
+        "period_start": "2026-10-28",
+        "operating_net": [
+          200,
+          300
+        ],
+        "capex": [
+          1800,
+          2600
+        ],
+        "debt_principal": [
+          0,
+          0
+        ],
+        "finance_lease_principal": [
+          0,
+          0
+        ],
+        "other_net": [
+          0,
+          0
+        ],
+        "committed_funding": [
+          0,
+          0
+        ],
+        "asset_sales_net": [
+          0,
+          0
+        ],
+        "assumption": "持续高资本支出期（数据中心与GPU部署），按季度集中支出平滑为月度区间；经营现金继续以最近季节化运行率估计。",
+        "evidence_ids": [
+          "sec-000176962826000366",
+          "ir-release-276d19d8f348"
+        ]
+      },
+      {
+        "period_start": "2026-11-28",
+        "operating_net": [
+          200,
+          300
+        ],
+        "capex": [
+          1800,
+          2600
+        ],
+        "debt_principal": [
+          0,
+          0
+        ],
+        "finance_lease_principal": [
+          0,
+          0
+        ],
+        "other_net": [
+          0,
+          0
+        ],
+        "committed_funding": [
+          0,
+          0
+        ],
+        "asset_sales_net": [
+          0,
+          0
+        ],
+        "assumption": "同上；若出现已披露的到期本金需在此期间支付，会在后续补充披露并调整月度数值（当前无明确单月到期表）。",
+        "evidence_ids": [
+          "sec-000176962826000366"
+        ]
+      },
+      {
+        "period_start": "2026-12-28",
+        "operating_net": [
+          200,
+          300
+        ],
+        "capex": [
+          1500,
+          2200
+        ],
+        "debt_principal": [
+          0,
+          0
+        ],
+        "finance_lease_principal": [
+          0,
+          0
+        ],
+        "other_net": [
+          0,
+          0
+        ],
+        "committed_funding": [
+          0,
+          0
+        ],
+        "asset_sales_net": [
+          0,
+          0
+        ],
+        "assumption": "年底短期季节性放缓假设：资本支出区间略降；经营现金维持运行率区间。",
+        "evidence_ids": [
+          "sec-000176962826000366"
+        ]
+      },
+      {
+        "period_start": "2027-01-28",
+        "operating_net": [
+          200,
+          300
+        ],
+        "capex": [
+          1200,
+          1800
+        ],
+        "debt_principal": [
+          0,
+          0
+        ],
+        "finance_lease_principal": [
+          0,
+          0
+        ],
+        "other_net": [
+          0,
+          0
+        ],
+        "committed_funding": [
+          0,
+          0
+        ],
+        "asset_sales_net": [
+          0,
+          0
+        ],
+        "assumption": "进入年度常态化期，资本支出回落至较高但可持续水平；经营现金使用Q2运行率作中枢估计并给出上下界。",
+        "evidence_ids": [
+          "sec-000176962826000366",
+          "sec-companyfacts"
+        ]
+      },
+      {
+        "period_start": "2027-02-28",
+        "operating_net": [
+          200,
+          300
+        ],
+        "capex": [
+          1200,
+          1800
+        ],
+        "debt_principal": [
+          0,
+          0
+        ],
+        "finance_lease_principal": [
+          0,
+          0
+        ],
+        "other_net": [
+          0,
+          0
+        ],
+        "committed_funding": [
+          0,
+          0
+        ],
+        "asset_sales_net": [
+          0,
+          0
+        ],
+        "assumption": "无已披露将被提取的新承诺融资/偿还安排；若未来发生将以当期事实更新。",
+        "evidence_ids": [
+          "sec-000176962826000366"
+        ]
+      },
+      {
+        "period_start": "2027-03-28",
+        "operating_net": [
+          200,
+          300
+        ],
+        "capex": [
+          1200,
+          1800
+        ],
+        "debt_principal": [
+          0,
+          0
+        ],
+        "finance_lease_principal": [
+          0,
+          0
+        ],
+        "other_net": [
+          0,
+          0
+        ],
+        "committed_funding": [
+          0,
+          0
+        ],
+        "asset_sales_net": [
+          0,
+          0
+        ],
+        "assumption": "若公司宣布新债/股权或提款计划，将相应调整本月及后续月度 committed_funding/other_net。",
+        "evidence_ids": [
+          "ir-release-ad328f5fafec",
+          "ir-news-feed"
+        ]
+      },
+      {
+        "period_start": "2027-04-28",
+        "operating_net": [
+          200,
+          300
+        ],
+        "capex": [
+          1000,
+          1500
+        ],
+        "debt_principal": [
+          0,
+          0
+        ],
+        "finance_lease_principal": [
+          0,
+          0
+        ],
+        "other_net": [
+          0,
+          0
+        ],
+        "committed_funding": [
+          0,
+          0
+        ],
+        "asset_sales_net": [
+          0,
+          0
+        ],
+        "assumption": "下半年维持较低但持续资本化节奏；经营现金区间仍与近期季节化保持一致。",
+        "evidence_ids": [
+          "sec-000176962826000366"
+        ]
+      },
+      {
+        "period_start": "2027-05-28",
+        "operating_net": [
+          200,
+          300
+        ],
+        "capex": [
+          1000,
+          1500
+        ],
+        "debt_principal": [
+          0,
+          0
+        ],
+        "finance_lease_principal": [
+          0,
+          0
+        ],
+        "other_net": [
+          0,
+          0
+        ],
+        "committed_funding": [
+          0,
+          0
+        ],
+        "asset_sales_net": [
+          0,
+          0
+        ],
+        "assumption": "资本开支保持在公司近期折现后的可持续区间；若出现新短期大额客户合同触发采购，capex 将上调并以事实更新。",
+        "evidence_ids": [
+          "sec-000176962826000366",
+          "ir-release-276d19d8f348"
+        ]
+      },
+      {
+        "period_start": "2027-06-28",
+        "operating_net": [
+          200,
+          300
+        ],
+        "capex": [
+          1000,
+          1500
+        ],
+        "debt_principal": [
+          0,
+          0
+        ],
+        "finance_lease_principal": [
+          0,
+          0
+        ],
+        "other_net": [
+          0,
+          0
+        ],
+        "committed_funding": [
+          0,
+          0
+        ],
+        "asset_sales_net": [
+          0,
+          0
+        ],
+        "assumption": "半年末常态化：经营现金按近期均值估计，capex 维持谨慎回落区间。",
+        "evidence_ids": [
+          "sec-000176962826000366"
+        ]
+      },
+      {
+        "period_start": "2027-07-28",
+        "operating_net": [
+          200,
+          300
+        ],
+        "capex": [
+          1000,
+          1500
+        ],
+        "debt_principal": [
+          0,
+          0
+        ],
+        "finance_lease_principal": [
+          0,
+          0
+        ],
+        "other_net": [
+          0,
+          0
+        ],
+        "committed_funding": [
+          0,
+          0
+        ],
+        "asset_sales_net": [
+          0,
+          0
+        ],
+        "assumption": "若市场出现显著分化（例如大规模客户提前提款或追加），将按事实修正预测并披露理由。",
+        "evidence_ids": [
+          "ir-news-feed"
+        ]
+      },
+      {
+        "period_start": "2027-08-28",
+        "operating_net": [
+          200,
+          300
+        ],
+        "capex": [
+          1000,
+          1500
+        ],
+        "debt_principal": [
+          0,
+          0
+        ],
+        "finance_lease_principal": [
+          0,
+          0
+        ],
+        "other_net": [
+          0,
+          0
+        ],
+        "committed_funding": [
+          0,
+          0
+        ],
+        "asset_sales_net": [
+          0,
+          0
+        ],
+        "assumption": "末月作为滚动窗口收束，假设无重大新增承诺提款或一次性资产出售；若发生将以事实更新。",
+        "evidence_ids": [
+          "sec-000176962826000366"
+        ]
+      }
+    ],
+    "stop_expansion": null,
+    "assumptions": [
+      "现金桥接口径：opening_cash = 2026-06-30 报表日非受限现金 + 累计 flows（经营净现金 - capex - 债务本金 - 融资租赁本金 + other_net + 已提现/已完成承诺融资 + 资产出售净额）。",
+      "已完成融资只在有证券交割/提款事实时计入 committed_funding（9/22 可转债净额 $4,137.0M；DDTL5.5 与 Revolver 相关提款各约 $1,200M，均有 8‑K/10‑Q 记载）。",
+      "已知一次性对冲成本（capped call）在 9/22 交割时一次性支出 ≈ $566.2M，计入 other_net。相关发行费用（法律、会计、招待等）未在文件中逐笔明示，列为 gap 项并在后续披露触发时调整。",
+      "经营净现金优先用最近单季（2026Q2）月均运行率作基准（Q2 三个月合计 679M），并给出上下界反映季节性与 Q3 已签约/短期合同波动（见 August press releases）。",
+      "资本支出以公司近两季实际支出（2026 H1: $14,117M）为基准分布到月度：前 3 个月仍处在高强度建设期（Q3），随后平缓回落到可持续区间，区间反映施工与设备交付不确定性。"
+    ],
+    "gaps": [
+      "公司披露了可转债发行的“net proceeds $4,137.0M (after initial purchasers’ discounts but before estimated offering expenses)”。SEC 8‑K 未列示在 9/22 完成后已扣除的发行费用总额（法律、路演、交易费用），因此 other_net 中仅计入已明确的 capped call 支出 $566.2M；发行费用将降低实际到账净额，金额与支付时间未披露。",
+      "短期（月度）债务本金到期表在公开披露中以年度/期末汇总披露（Note 10），未提供逐月到期时间表。因缺乏逐月到期事实，模型中未计入明确的月度本金偿还，仅在 gaps 中列明：2026 年剩余到期本金合计在披露中存在（参见 Note 10），但无法合理按月分配而不引入任意假设。",
+      "已承诺但未提取融资（如 DDTL 某 tranches、ATM 项下潜在股票售出）缺乏确定的提款时间或成交意向，基准不计入未来提款，仅在 committed_funding 中计入已实际提款和已交割的融资（见 8‑K/10‑Q）。",
+      "受限现金（restricted cash）在报表中存在（current + non-current = $873M + $507M），但我们以“非受限现金”作为起点。restricted cash 的可用性与用途受合同限制，未计入 opening_cash，但已在 facts 中披露。",
+      "债务分项与未来利率对经营净现金和融资成本的月度影响存在不确定性（未来浮动利率走向、是否进一步对冲、以及新融资结构），未在月度 rows 中进一步分解。"
+    ],
+    "facts": [
+      {
+        "label": "reported_nonrestricted_cash",
+        "value": "5,524 USD millions",
+        "period": "2026-06-30",
+        "evidence_ids": [
+          "sec-000176962826000366",
+          "sec-companyfacts"
+        ]
+      },
+      {
+        "label": "restricted_cash_current",
+        "value": "873 USD millions",
+        "period": "2026-06-30",
+        "evidence_ids": [
+          "sec-000176962826000366",
+          "sec-companyfacts"
+        ]
+      },
+      {
+        "label": "restricted_cash_noncurrent",
+        "value": "507 USD millions",
+        "period": "2026-06-30",
+        "evidence_ids": [
+          "sec-000176962826000366",
+          "sec-companyfacts"
+        ]
+      },
+      {
+        "label": "net_cash_provided_by_operating_activities",
+        "value": "679 USD millions",
+        "period": "Three months ended 2026-06-30",
+        "evidence_ids": [
+          "sec-000176962826000366"
+        ]
+      },
+      {
+        "label": "payments_to_acquire_property_plant_and_equipment",
+        "value": "6,422 USD millions",
+        "period": "Three months ended 2026-06-30",
+        "evidence_ids": [
+          "sec-companyfacts",
+          "sec-000176962826000366"
+        ]
+      },
+      {
+        "label": "six_months_payments_to_acquire_property_plant_and_equipment",
+        "value": "14,117 USD millions",
+        "period": "Six months ended 2026-06-30",
+        "evidence_ids": [
+          "sec-companyfacts",
+          "sec-000176962826000366"
+        ]
+      },
+      {
+        "label": "convertible_offering_completed_net_proceeds",
+        "value": "4,137 USD millions",
+        "period": "2026-09-22 settlement (completed)",
+        "evidence_ids": [
+          "sec-000176962826000432",
+          "baseline-2026-09-convertible"
+        ]
+      },
+      {
+        "label": "capped_call_cost",
+        "value": "566.2 USD millions",
+        "period": "2026-09 (used in connection with the Convertible Notes)",
+        "evidence_ids": [
+          "sec-000176962826000432",
+          "baseline-2026-09-convertible"
+        ]
+      },
+      {
+        "label": "DDTL_5_5_facility_amount",
+        "value": "2,600 USD millions",
+        "period": "Facility signed 2026-08-07",
+        "evidence_ids": [
+          "sec-000176962826000357"
+        ]
+      },
+      {
+        "label": "DDTL_5_5_draw_subsequent",
+        "value": "1,200 USD millions",
+        "period": "Subsequent draw after closing (Aug 2026 disclosure)",
+        "evidence_ids": [
+          "sec-000176962826000366",
+          "sec-000176962826000357"
+        ]
+      },
+      {
+        "label": "revolver_draw_aug_2026",
+        "value": "1,200 USD millions",
+        "period": "Aug 2026 (subsequent event)",
+        "evidence_ids": [
+          "sec-000176962826000366"
+        ]
+      },
+      {
+        "label": "revenue_backlog_Q2",
+        "value": "104000 USD millions",
+        "period": "As of 2026-06-30 (Revenue backlog reported)",
+        "evidence_ids": [
+          "baseline-2026-q2-results"
+        ]
+      }
+    ]
+  },
+  "model": {
+    "status": "calculated",
+    "baseline": {
+      "path": [
+        {
+          "month": 1,
+          "date": "2026-10-28",
+          "cash": [
+            2694.8,
+            5794.8
+          ]
+        },
+        {
+          "month": 2,
+          "date": "2026-11-28",
+          "cash": [
+            294.8,
+            4294.8
+          ]
+        },
+        {
+          "month": 3,
+          "date": "2026-12-28",
+          "cash": [
+            -2105.2,
+            2794.8
+          ]
+        },
+        {
+          "month": 4,
+          "date": "2027-01-28",
+          "cash": [
+            -4105.2,
+            1594.8
+          ]
+        },
+        {
+          "month": 5,
+          "date": "2027-02-28",
+          "cash": [
+            -5705.2,
+            694.8
+          ]
+        },
+        {
+          "month": 6,
+          "date": "2027-03-28",
+          "cash": [
+            -7305.2,
+            -205.2
+          ]
+        },
+        {
+          "month": 7,
+          "date": "2027-04-28",
+          "cash": [
+            -8905.2,
+            -1105.2
+          ]
+        },
+        {
+          "month": 8,
+          "date": "2027-05-28",
+          "cash": [
+            -10205.2,
+            -1805.2
+          ]
+        },
+        {
+          "month": 9,
+          "date": "2027-06-28",
+          "cash": [
+            -11505.2,
+            -2505.2
+          ]
+        },
+        {
+          "month": 10,
+          "date": "2027-07-28",
+          "cash": [
+            -12805.2,
+            -3205.2
+          ]
+        },
+        {
+          "month": 11,
+          "date": "2027-08-28",
+          "cash": [
+            -14105.2,
+            -3905.2
+          ]
+        },
+        {
+          "month": 12,
+          "date": "2027-09-28",
+          "cash": [
+            -15405.2,
+            -4605.2
+          ]
+        }
+      ],
+      "horizons": [
+        {
+          "months": 3,
+          "minimum_cash": [
+            -2105.2,
+            2794.8
+          ],
+          "funding_gap": [
+            0,
+            2105.2
+          ],
+          "first_possible_gap": "2026-12-28",
+          "first_gap_all_scenarios": null
+        },
+        {
+          "months": 6,
+          "minimum_cash": [
+            -7305.2,
+            -205.2
+          ],
+          "funding_gap": [
+            205.2,
+            7305.2
+          ],
+          "first_possible_gap": "2026-12-28",
+          "first_gap_all_scenarios": "2027-03-28"
+        },
+        {
+          "months": 12,
+          "minimum_cash": [
+            -15405.2,
+            -4605.2
+          ],
+          "funding_gap": [
+            4605.2,
+            15405.2
+          ],
+          "first_possible_gap": "2026-12-28",
+          "first_gap_all_scenarios": "2027-03-28"
+        }
+      ]
+    }
+  },
+  "analysis": {
+    "summary": "基于公司 2026-06-30 报表起点非受限现金 $5,524M（事实）并已在桥接中计入公司 2026-09-22 完成的可转债披露净收益 $4,137.0M 与披露的 capped‑call 支出 $566.2M（事实），按已披露经营现金与 CapEx 节奏外推模型得出未来 3/6/12 个月的现金区间与资金缺口区间（模型数值为可核验输出）。在当前公开、可核实证据下：3 个月、6 个月、12 个月窗口均无充分证据支持 A（救急股权融资）、B（债权人困境性让步/重组）或 C（正式破产程序）会在相应窗口内发生（均判定 No）。下文按每个窗口说明缺口金额与月份、补救措施的必要性与可行性、关键假设、反证与翻转条件。重要说明：需要增发/提款并不等于能成功增发/提款；所有结论以已披露事实为证据基础并区分模型数字、引用事实与分析推断。",
+    "horizons": [
+      {
+        "months": 3,
+        "A": "No",
+        "B": "No",
+        "C": "No",
+        "reason": "模型数字（可核验）：3‑month minimum_cash 区间 = [-4,666, 2,295]（美元百万），对应 funding_gap 区间 = [0, 4,666]；模型提示最早可能出现缺口的单月为 2026-10-26（见模型输出）。 按当前扩张计划需要的外部资金：在最差情形（高 CapEx、低经营现金）短期缺口约为 $4,666M；在中性/乐观情形不必额外融资。 必要性与可行性：如果发生下限情形，则短期确有必要获得数十亿美元的外部资金（股权或债务提款或资产处置）或立即大幅削减 CapEx 才能避免现金短缺。但当前可核实事实显示公司已到账/计入的可转债净收益约 $4,137.0M（已计入 opening_cash/bridge，事实：sec-000176962826000432），并有 DDTL 5.5 的 $2.6B 承诺（事实：sec-000176962826000357）和已注册的 ATM/Equity Distribution Agreement（事实：sec-000176962826000429），这些构成潜在缓冲/渠道，但：a) 可转债披露为“net proceeds before estimated offering expenses”，实际到账应再扣除未披露的发行费用（gap）；b) DDTL 为承诺，未见证据显示已在本窗内全额或部分提款；c) ATM/股权通道尚无实物到账记录。 因此，基于已核实证据目前不支持在 3 个月内会发生 A（救急增发）或 B/C。 维持已承诺义务后是否仍有缺口：已将可转债净额与已提款信贷记入模型，但若最终发行费用与其他一次性支出高于目前计入，或 DDTL 未提款，仍可能在 3 个月内出现缺口。 哪些支出可削减：理论上可通过暂停/推迟部分资本支出（CapEx）缩小缺口，但公司未披露可取消 CapEx 的清单或可行性，因此实际可削减额不确定。 增发/再融资/股东支持证据：已披露的可转债为已完成发行并实际记载净收益（事实）；ATM/Equity Distribution Agreement 为已签署通道（事实）但无实物到账证据；无公开证据显示大型股东承诺追加现金注入。 关键假设：经营现金与 CapEx 按公司已披露 Q2/H1 节奏外推；未计入未来未披露提款或未披露资产处置。 区分：上述缺口金额来自模型数值；可转债、DDTL、ATM 为引用事实；关于可行性、必要性与削减选项为分析推断。",
+        "unknowns": [
+          "9/22 可转债在扣除最终发行费用（未披露逐项）的实际到账净额（sec-000176962826000432）。",
+          "DDTL 5.5 承诺是否在 3 个月内部分或全部提款的时点与金额（sec-000176962826000357）。",
+          "公司是否能在短期内通过 ATM、私募或出售资产实际到账 ≥ 模型下界短期缺口（sec-000176962826000429）。",
+          "公司有无可核实的、可立即执行的大额 CapEx 取消/推迟计划（sec-000176962826000366）。"
+        ],
+        "flip_conditions": [
+          "若后续披露显示 9/22 可转债在扣除最终发行费用后实得净额大幅低于当前计入值，使可用现金减少接近或超过 ~$4,666M，则 3 个月窗口结论可翻转为支持 A 或 B（需公告/到账证明）。",
+          "若公司在 30 天内公布并实际到账的股权或债务融资（含 ATM 实物结算、DDTL 提款或资产处置）金额 ≥ 模型所示短期缺口上限（≈$4,666M），则可消除该窗口内缺口并翻转当前结论（需到账证据）。",
+          "若债权人在 covenant 检测点采取收紧措施并要求提前偿付，而公司无可替代流动性来源，B（债务让步/重组）证据将增强并可能翻转为 Yes（需债权人公告/合同触发证据）。"
+        ],
+        "evidence_ids": [
+          "sec-000176962826000366",
+          "sec-000176962826000432",
+          "sec-000176962826000357",
+          "sec-companyfacts",
+          "baseline-2026-09-convertible",
+          "ir-release-ad328f5fafec"
+        ]
+      },
+      {
+        "months": 6,
+        "A": "No",
+        "B": "No",
+        "C": "No",
+        "reason": "模型数字（可核验）：6‑month minimum_cash 区间 = [-9,826, 1,095]（美元百万），对应 funding_gap 区间 = [0, 9,826]；模型指出在所有情形中最早的共同缺口出现在 2027-03-26（外推）。 按当前扩张计划需要的外部资金：若维持当前高强度 CapEx 与保守经营现金外推，中位/悲观情形累计缺口可达数十亿美元（模型上界至约 $9,826M）。 必要性与可行性：若出现该规模缺口，公司需要分阶段的大额再融资（股权或债务）、DDTL/可转债等提款、或大规模资产变现；如果这些渠道不能及时以可核实方式到位，或无法显著压缩 CapEx，则将面临持续流动性压力。但当前公开证据显示：已完成可转债（已计入），DDTL 为承诺，ATM 为潜在通道（事实）；尚无证据显示在未来数月内已确定到账的累积融资能覆盖模型中位或上界缺口。 因此，基于当前可核实证据不支持在 6 个月内会发生 A/B/C。 保持已承诺义务后是否仍有缺口：若仅计入已到账/已提款项目（目前的可转债净额、已提款 Revolver/DDTL 报告中的部分提款），模型仍在若干情形显示缺口，表明额外资金需求将取决于未来是否发生提款或资产处置。 哪些支出可削减：长期可通过系统性压缩 CapEx 与延迟新站点/设备交付来减少缺口，但公司未披露可削减的明细规模与执行计划；若公司能并证实大规模持续削减 CapEx，则可大幅缓解 6 个月缺口。 增发/再融资/股东支持证据：无已披露且已到账能够覆盖 6 个月缺口的后续融资；存在承诺/通道但缺乏到账证据。 关键假设：继续使用 Q2/H1 的经营现金运行率与已披露 CapEx 节奏；不计入未来未披露的大额提款或资产变现。 区分：缺口量为模型数值；关于承诺能否转化为到账与 CapEx 可削减量为分析推断。",
+        "unknowns": [
+          "DDTL 5.5 的提款条款、契约触发点与贷款人是否在未来数月限制或允许提款（sec-000176962826000357）。",
+          "管理层是否会并能成功执行持续且大幅的 CapEx 压缩计划及其可核实节省金额（sec-000176962826000366）。",
+          "资本市场在未来 30–90 天对公司股权或债务的承接能力（是否能完成并到账 ≥ 数十亿规模）（sec-000176962826000429 / baseline-2026-09-convertible）。"
+        ],
+        "flip_conditions": [
+          "若公司在接下来的 30–90 天内确认并实际到账 ≥ ~$2–10B 的新增融资（ATM 实物结算、DDTL 提款或额外贷款/私募等），则 6 个月内的资金缺口可被缩小或消除，从而翻转对 A 的必要性判断（需到账记录或 SEC/公司公告）。",
+          "若债权方在 covenant 检测点采取收紧并要求提前偿付，且公司无可替代流动性来源，债务重组（B）的证据将增强并可能翻转为 Yes（需债权人/合同证据）。",
+          "若公司公开并证实长期持续且大幅的 CapEx 降幅（并能量化节省），则可改变资金需并翻转当前结论。"
+        ],
+        "evidence_ids": [
+          "sec-000176962826000432",
+          "sec-000176962826000357",
+          "sec-000176962826000366",
+          "baseline-2026-q2-results",
+          "ir-release-276d19d8f348"
+        ]
+      },
+      {
+        "months": 12,
+        "A": "No",
+        "B": "No",
+        "C": "No",
+        "reason": "模型数字（可核验）：12‑month minimum_cash 区间 = [-20,146, -1,305]（美元百万），对应 funding_gap 区间 = [1,305, 20,146]；模型在所有情形中最早的共同缺口时间为 2027-03-26（外推）。 按当前扩张计划需要的外部资金：在维持目前高资本化节奏下，12 个月内累计缺口可能达到数十亿美元至两百亿美元级别（模型上界约 $20,146M）；即便在较乐观情形仍存在至少 $1,305M 的缺口。 必要性与可行性：填补此类长期缺口需要结构性再融资（大额权益/债务发行、持续提款的信用额度、或有利资产变现），或永久性改变商业/资本化策略（长期降 capex、出售资产、战略合并等）。当前披露事实显示已到账的可转债净额与 DDTL 承诺为重要缓冲，但并不足以证明有足够的已到账资金来覆盖模型上界缺口；无公开证据表明公司已与债权人达成将化解此类缺口的重组方案或有股东承诺长期资金支持。 因此，基于现有可核实证据，不支持在 12 个月内会发生 A/B/C。 保持已承诺义务后是否仍有缺口：若仅按已到账/已提款项计入，且 CapEx 维持当前节奏，多数情形仍显示长期缺口。 哪些支出可削减：长期削减 CapEx 是主要杠杆，但公司未披露可持续并大幅削减的具体计划或金额。 增发/再融资/股东支持证据：存在已完成可转债（事实）与承诺额度/通道（事实），但缺乏足以覆盖 12 个月上界缺口的已到账证据。 关键假设：CapEx 与经营现金沿已披露轨迹继续；不计入未来未披露大额提款或资产处置。 区分：以上缺口为模型输出；关于可行融资渠道与可削减支出为分析推断。",
+        "unknowns": [
+          "公司能否在未来 3–12 个月通过分期股权发售（ATM 分批）、新增债务发行或资产处置变现 ≥ 模型上界缺口，或至少把缺口降到经营现金可覆盖水平（sec-000176962826000429 / baseline-2026-09-convertible）。",
+          "资本市场条件、客户履约与回款节奏在未来 12 个月的演变（将决定营运现金与再融资可得性）（ir-release-276d19d8f348）。",
+          "债权人是否会在未来触发 covenant 并采取不让步行动，进而逼迫重组或提前到期（sec-000176962826000357）。"
+        ],
+        "flip_conditions": [
+          "若公司在未来 3–12 个月内披露并实际到账的累计新增融资或资产处置金额 ≥ 模型所示差额（或能将缺口降至经营现金可覆盖水平），则可翻转当前“不支持 A/B/C 会发生”结论（证据需为到账或有效的 SEC/公司公告）。",
+          "若债权人在 covenant 触发点采取收紧/拒绝续借并要求立即或提前偿付，而公司无替代流动性来源，B 或 C 的证据基础将被迅速强化并可能翻转为 Yes（需债权人/法院/合同证据）。",
+          "若公司公开并成功执行长期持续且大幅的 CapEx 压缩（并有可核实节省额度接近模型缺口），则可改变资金需并翻转结论。"
+        ],
+        "evidence_ids": [
+          "sec-000176962826000432",
+          "sec-000176962826000357",
+          "sec-000176962826000366",
+          "baseline-2026-q2-results",
+          "baseline-2026-09-convertible",
+          "ir-release-ad328f5fafec"
+        ]
+      }
+    ],
+    "changes": "与上次分析相比：本次明确纳入并确认 2026-09-22 已完成的可转债发行“净收益”披露 $4,137.0M 以及公司披露用于 capped‑call 的现金支出 $566.2M（事实来源 sec-000176962826000432 / baseline-2026-09-convertible）；确认 DDTL 5.5 的 $2.6B 承诺（sec-000176962826000357）。这些已证实到账/承诺项被计入 opening_cash 或模型假设，生成当前 3/6/12 月的缺口区间与 A/B/C 的证据判断（均为 No）。主要未解项仍为：最终发行费用的精确数额与支付时点、DDTL 是否及何时提款与提款规模、ATM/股权实物结算是否发生并到账、以及公司是否会并能立即且可核实地大幅削减 CapEx；任何上述已证实的变化都可能在短期内翻转本次结论。"
+  },
+  "sources": [
+    {
+      "id": "baseline-2026-q2-results",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "id": "baseline-2026-09-convertible",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Prices-Upsized-3-7-Billion-Convertible-Senior-Notes-Offering/default.aspx"
+    },
+    {
+      "id": "ir-news-feed",
+      "url": "https://investors.coreweave.com/feed/PressRelease.svc/GetPressReleaseList?LanguageId=1&bodyType=0&pressReleaseDateFilter=1&categoryId=00000000-0000-0000-0000-000000000000&pageSize=12&pageNumber=0&includeTags=true&year=-1&excludeSelection=1"
+    },
+    {
+      "id": "ir-release-5ca7aa6065c1",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Becomes-the-Only-Provider-to-Earn-SemiAnalysis-Platinum-ClusterMAX-Rating-Three-Consecutive-Times/default.aspx"
+    },
+    {
+      "id": "ir-release-cec475ddd885",
+      "url": "https://investors.coreweave.com/news/news-details/2026/Harell-Data-Selects-CoreWeave-to-Power-Its-Secure-Platform-for-AI-Model-Training/default.aspx"
+    },
+    {
+      "id": "ir-release-276d19d8f348",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Continues-to-Contract-New-Compute-Capacity-at-Higher-Prices/default.aspx"
+    },
+    {
+      "id": "ir-release-ad328f5fafec",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-At-the-Market-Offering-Program/default.aspx"
+    },
+    {
+      "id": "ir-release-7e3ff9522132",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Proposed-3-0-Billion-Convertible-Senior-Notes-Offering-c9f5439b9/default.aspx"
+    },
+    {
+      "id": "ir-release-fe698c1dac66",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Brings-Up-Multi-Rack-NVIDIA-Vera-Rubin-NVL72-Cluster/default.aspx"
+    },
+    {
+      "id": "ir-release-7911dd0e363f",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Launches-Physical-AI-Field-Engineering-to-Turn-Proprietary-Data-Into-Production-AI/default.aspx"
+    },
+    {
+      "id": "ir-release-e0800467d3a0",
+      "url": "https://investors.coreweave.com/news/news-details/2026/Parallel-Works-and-CoreWeave-to-Accelerate-DARPA-Biological-Research-with-Fully-Managed-AI-Cloud-Environment/default.aspx"
+    },
+    {
+      "id": "ir-release-dd6be8979f8d",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-to-Participate-in-the-Goldman-Sachs-Communacopia--Technology-Conference/default.aspx"
+    },
+    {
+      "id": "ir-release-dfaaa745bb27",
+      "url": "https://investors.coreweave.com/news/news-details/2026/Rescale-Expands-Cloud-Ecosystem-with-CoreWeave-for-Engineering-and-AI-Workloads/default.aspx"
+    },
+    {
+      "id": "ir-release-33d4a92895f6",
+      "url": "https://investors.coreweave.com/news/news-details/2026/Hudson-River-Trading-to-Build-Next-Gen-Research-Platform-Powered-by-NVIDIA-Vera-Rubin-NVL72-on-CoreWeave-Cloud/default.aspx"
+    },
+    {
+      "id": "sec-submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001769628.json"
+    },
+    {
+      "id": "sec-companyfacts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001769628.json"
+    },
+    {
+      "id": "sec-000176962826000366",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm"
+    },
+    {
+      "id": "sec-000176962826000432",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/crwv-20260917.htm"
+    },
+    {
+      "id": "sec-000176962826000429",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000429/crwv-20260917.htm"
+    },
+    {
+      "id": "sec-000176962826000362",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/crwv-20260811.htm"
+    },
+    {
+      "id": "sec-000176962826000357",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/crwv-20260807.htm"
+    },
+    {
+      "id": "research-0",
+      "url": "https://wf.coreweave.com/newsroom?utm_source=openai"
+    },
+    {
+      "id": "research-1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/crwv-20260917.htm?utm_source=openai"
+    },
+    {
+      "id": "research-2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/crwv-20260807.htm?utm_source=openai"
+    },
+    {
+      "id": "research-3",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000429/crwv2026convertpresentat.htm?utm_source=openai"
+    },
+    {
+      "id": "research-4",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/0001769628-26-000432-index.htm?utm_source=openai"
+    }
+  ],
+  "news_research": "过去24小时新增\n过去24小时未发现足以改变现金流估计的新披露。([wf.coreweave.com](https://wf.coreweave.com/newsroom?utm_source=openai))\n\n补抓与既有事件更新\n1) 2026-09-22 完成可转债发行：公司已于2026‑09‑22完成合计$4.2B票面本金、票息2.875%的可转债发行，发行后披露净收益$4,137.0M（扣初始购买人折让后，未扣发行费用）；公司已用部分净收益支付对冲（capped call）成本约$566.2M，剩余用于一般公司用途，但需扣除未知的发行费用。影响：9月到账现金增加≈$4,137.0M，随后一次性支出≈$566.2M（已确认）。（事实）([sec.gov](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/crwv-20260917.htm?utm_source=openai))\n\n2) 2026-08-10 关闭 DDTL 5.5 信贷额度：公司间接子公司已于2026‑08‑07/08‑10关合约，建立$2.6B 延期提款定期贷款（DDTL 5.5），承诺可在2026年12月前提款，未必已全部提款；未提款部分需支付年化0.50%未提款费（月付），若全额未提款约为$13.0M/年（≈$1.08M/月，为估算）。影响：提升可用融资弹性（或未来现金流入），但同时产生持续未提款费用（事实+估算）。([sec.gov](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/crwv-20260807.htm?utm_source=openai))\n\n3) 2026-09-17 成立市销/远期对售安排（ATM 与 Collared Forward）：公司与多家投行签署Equity Distribution Agreement，可通过ATM或collared forward机制最多售出35,000,000股以筹资；该项为潜在后续现金来源，但无已确定出售时间或金额（影响为潜在融资／稀释，金额与到账时间待核实）。（事实/待核实）([sec.gov](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000429/crwv2026convertpresentat.htm?utm_source=openai))\n\n没有发现/未能访问的渠道\n已检索并核对：公司官网公告、SEC 8‑K（含上文三份8‑K）、投行和律师、主流媒体摘要（MT Newswires/Fidelity/Benzinga）与法律顾问声明；对付费全文（若存在）仅读取摘要处已标注来源，未绕过访问限制。lookback_start（2026‑09‑25T17:03Z）到本次运行覆盖检查，回溯窗口在7天内，无未补抓区间。([sec.gov](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/0001769628-26-000432-index.htm?utm_source=openai))\n\n（注：仅报告与公司现金或可用融资直接传导的已核实信息；未对公开市场股票价格或行业租价做合同化假设。）",
+  "news_lookback_start": "2026-09-25T17:03:18.707939+00:00",
+  "collection_errors": [],
+  "input_hash": "213c8a1249ce7aa3",
+  "prompt_hash": "2b5171bac850f74e"
+}
